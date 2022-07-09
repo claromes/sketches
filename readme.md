@@ -2,6 +2,9 @@
 
 ## Gallery
 
+- points.py
+<img src="./gifs/points.gif">
+
 - square.py
 <img src="./gifs/square_2.gif">
 
