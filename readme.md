@@ -1,4 +1,4 @@
-# Python Mode for Processing sketches
+# py5/Python Mode for Processing sketches
 
 ## Gallery
 
