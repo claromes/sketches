@@ -1,10 +1,5 @@
 import py5
 
-# s = 0
-# a = 255
-# x = py5.random(392, 500)
-# y = py5.random(0, 500)
-
 def settings():
     py5.size(500, 500)
 
@@ -27,7 +22,7 @@ def draw():
     rain_skyline()
 
     #frame_3
-    #background(358, 0, 150, 500)
+    background(358, 0, 150, 500)
     cables()
     bird()
 
@@ -120,19 +115,6 @@ def bird():
     py5.triangle(400, 255, 400, 260, 392, 256)
 
     py5.no_fill()
-
-# def drop_floor():
-#     global s, a, x, y
-#     py5.no_fill()
-#     py5.stroke(255)
-#     py5.stroke_weight(2)
-
-#     while s < 80 and a > 0:
-#         s += 1
-#         a -= 10
-#         py5.stroke(255, a)
-#         py5.ellipse(x, y, s, s)
-#         break
 
 def layout():
     #grid
