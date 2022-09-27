@@ -4,7 +4,7 @@
 
 - comic_rain
 
-<img src="./gifs/comic_rain.gif">
+<img src="./gifs/comic_rain_2.gif">
 
 - square
 
