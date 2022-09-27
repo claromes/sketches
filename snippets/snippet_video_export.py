@@ -1,4 +1,5 @@
 #source: https://abav.lugaralgum.com/material-aulas/Processing-Python/exportar_animacoes.html
+# Python Mode for Processing
 
 import __main__
 add_library('VideoExport')
