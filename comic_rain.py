@@ -19,25 +19,26 @@ def draw():
     #frame_2
     background(0, 350, 350, 150)
     windows_close()
-    rain_skyline()
+    rain(350, 500, 350)
 
     #frame_3
     background(358, 0, 150, 500)
     cables()
     bird()
+    rain(0, 500, 500, 350)
 
     layout()
 
-def rain_skyline():
+def rain(low, high, stop, start = 0):
     #tiny drops
     py5.fill("#f9f4a0")
-    for i in range(350):
-        py5.rect(i, py5.random(350, 500), 0.5, py5.random(0.5, 1.5))
+    for i in range(start, stop):
+        py5.rect(i, py5.random(low, high), 0.5, py5.random(0.5, 1.5))
 
     #standard drops
     py5.fill(255)
-    for i in range(350):
-        py5.rect(i, py5.random(350, 500), py5.random(1, 2), py5.random(5, 20))
+    for i in range(start, stop):
+        py5.rect(i, py5.random(low, high), py5.random(1, 2), py5.random(5, 20))
 
 def skyline(offset_x = 0, offset_y = 0):
     py5.fill(0)
@@ -79,21 +80,8 @@ def windows_close():
     py5.rect(90, 375, 60, 100)
 
 def cables():
-    if (py5.frame_count == 15
-        or py5.frame_count == 18
-        or py5.frame_count == 20
-        or py5.frame_count % 40 == 0
-        or py5.frame_count % 42 == 0
-        or py5.frame_count % 44 == 0
-        or py5.frame_count % 46 == 0
-        or py5.frame_count % 60 == 0
-        or py5.frame_count % 62 == 0
-        or py5.frame_count % 63 == 0):
-        py5.fill(255)
-        py5.rect(358, 0, 150, 500)
-
     py5.no_fill()
-    py5.stroke(0)
+    py5.stroke(255)
     py5.stroke_weight(2)
     py5.arc(500, 100, 298, 50, py5.HALF_PI, py5.PI)
     py5.arc(500, 100, 298, 40, py5.HALF_PI, py5.PI)
@@ -107,7 +95,7 @@ def cables():
     py5.no_stroke()
 
 def bird():
-    py5.fill(0)
+    py5.fill(255)
 
     py5.ellipse(400, 265, 10, 22)
     py5.ellipse(400, 258, 6, 8)
