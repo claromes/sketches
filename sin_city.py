@@ -8,7 +8,6 @@ def draw():
     grid_horizontal()
 
 def grid_horizontal():
-    global a, angle
     py5.push_matrix()
     py5.rotate(0.3)
 
