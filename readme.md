@@ -2,6 +2,10 @@
 
 ## Gallery
 
+- sin_city
+
+<img src="./images/sin_city.jpg">
+
 - comic_rain
 
 <img src="./gifs/comic_rain_3.gif">
