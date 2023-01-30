@@ -54,7 +54,7 @@ py5, Python Mode for Processing sketches
 
 <img src="./media/tiny_story.gif" width="400">
 
-[tiny_story.py](./tiny_story.py)/py5/Processing Community Day 2022 Coimbra and Brazil Official Selection
+[tiny_story.py](./tiny_story.py)/py5/Processing Community Day 2022 Coimbra and Brasil Official Selection
 <br>
 <br>
 
