@@ -6,7 +6,7 @@ py5, Python Mode for Processing sketches
 
 <img src="./media/sin_city_fresh_air.png" width="400">
 
-[sin_city_fresh_air.py](./sin_city_fresh_air.py)/py5
+[sin_city_fresh_air.py](./sin_city_fresh_air.py)/py5/Processing Community Day 2023 Porto Official Selection
 <br>
 <br>
 
