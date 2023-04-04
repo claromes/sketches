@@ -4,9 +4,19 @@ py5, Python Mode for Processing sketches
 
 ## Gallery
 
+<img src="./media/DLPoints.gif" width="400">
+<br>
+<img src="./media/DLLetters.gif" width="400">
+<br>
+<img src="./media/DLLetters_2.gif" width="400">
+
+[repo](https://github.com/claromes/distortingletters)/Processing
+<br>
+<br>
+
 <img src="./media/sin_city_fresh_air.png" width="400">
 
-[sin_city_fresh_air.py](./sin_city_fresh_air.py)/py5/Processing Community Day 2023 Porto Official Selection
+[repo](https://github.com/claromes/recode)/py5/Processing Community Day 2023 Porto Official Selection
 <br>
 <br>
 
@@ -48,13 +58,13 @@ py5, Python Mode for Processing sketches
 
 <img src="./media/sin_city_jail_cell.png" width="400">
 
-[sin_city_jail_cell.py](./sin_city_jail_cell.py)/py5/Processing Community Day 2023 Porto Official Selection/[live demo](https://www.youtube.com/watch?v=KlUvCwfRoZA)
+[repo](https://github.com/claromes/recode)/py5/Processing Community Day 2023 Porto Official Selection/[live demo](https://www.youtube.com/watch?v=KlUvCwfRoZA)
 <br>
 <br>
 
 <img src="./media/tiny_story.gif" width="400">
 
-[tiny_story.py](./tiny_story.py)/py5/Processing Community Day 2022 Coimbra and Brasil Official Selection
+[repo](https://github.com/claromes/pcd2022)/py5/Processing Community Day 2022 Coimbra and Brasil Official Selection
 <br>
 <br>
 
